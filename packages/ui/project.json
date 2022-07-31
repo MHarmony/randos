@@ -5,9 +5,7 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/ui",
         "index": "packages/ui/src/index.html",
@@ -15,10 +13,7 @@
         "polyfills": "packages/ui/src/polyfills.ts",
         "tsConfig": "packages/ui/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "packages/ui/src/favicon.ico",
-          "packages/ui/src/assets"
-        ],
+        "assets": ["packages/ui/src/favicon.ico", "packages/ui/src/assets"],
         "styles": [
           "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
           "packages/ui/src/styles.scss"
@@ -65,7 +60,8 @@
           "browserTarget": "ui:build:production"
         },
         "development": {
-          "browserTarget": "ui:build:development"
+          "browserTarget": "ui:build:development",
+          "ssl": true
         }
       },
       "defaultConfiguration": "development"
@@ -79,17 +75,12 @@
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
-        "lintFilePatterns": [
-          "packages/ui/**/*.ts",
-          "packages/ui/**/*.html"
-        ]
+        "lintFilePatterns": ["packages/ui/**/*.ts", "packages/ui/**/*.html"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/packages/ui"
-      ],
+      "outputs": ["coverage/packages/ui"],
       "options": {
         "jestConfig": "packages/ui/jest.config.ts",
         "passWithNoTests": true
