@@ -23,4 +23,4 @@ Please make sure to read the [Issue Reporting Checklist](https://github.com/MHar
 
 ## License
 
-randos is [MIT licensed](LICENSE.md).
+randos is [GPL-3.0 licensed](LICENSE.md).
