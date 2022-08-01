@@ -17,6 +17,25 @@ import { LayoutModule } from './layout/layout.module';
         {
           path: '',
           loadChildren: () => import('./home/home.module').then((m) => m.HomeModule)
+        },
+        {
+          path: 'settings',
+          loadChildren: () =>
+            import('./settings/settings.module').then((m) => m.SettingsModule)
+        },
+        {
+          path: 'add',
+          loadChildren: () => import('./add/add.module').then((m) => m.AddModule)
+        },
+        {
+          path: 'random',
+          loadChildren: () =>
+            import('./random/random.module').then((m) => m.RandomModule)
+        },
+        {
+          path: '**',
+          loadChildren: () =>
+            import('./not-found/not-found.module').then((m) => m.NotFoundModule)
         }
       ],
       { initialNavigation: 'enabledBlocking' }

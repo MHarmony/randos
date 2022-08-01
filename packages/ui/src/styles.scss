@@ -11,6 +11,10 @@ body {
 
 a {
   text-decoration: none;
+
+  &.active {
+    color: var(--indigo-50) !important;
+  }
 }
 
 @media screen and (min-width: 412px) {
