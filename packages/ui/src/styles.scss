@@ -5,12 +5,8 @@
 
 html,
 body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
   font-family: 'Fira Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
