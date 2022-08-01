@@ -47,6 +47,9 @@ specifiers:
   lint-staged: ^13.0.3
   nx: 14.5.1
   prettier: ^2.7.1
+  primeflex: ^3.2.1
+  primeicons: ^5.0.0
+  primeng: ^14.0.0
   rxjs: ~7.5.6
   semantic-release: ^19.0.3
   ts-jest: 28.0.7
@@ -67,6 +70,9 @@ dependencies:
   '@angular/platform-browser': 14.1.0_fsfxn3q5jfgkydsi5rfuqudspa
   '@angular/platform-browser-dynamic': 14.1.0_4uelz7lddsxzh2as2vx6t5hnym
   '@angular/router': 14.1.0_oh7ssot2niyqdg7a6md2mriq4i
+  primeflex: 3.2.1
+  primeicons: 5.0.0
+  primeng: 14.0.0_lvkklmgpprg7p6bn7riz7stk34
   rxjs: 7.5.6
   tslib: 2.4.0
   zone.js: 0.11.7
@@ -13985,6 +13991,33 @@ packages:
       ansi-styles: 5.2.0
       react-is: 18.2.0
     dev: true
+
+  /primeflex/3.2.1:
+    resolution: {integrity: sha512-sGDJ4mh2fG19xa1yc4IPGSQ8MUMyu5nU+tYnl27AFuFHhX8XwEA7fWCtWyBbclclVhXtre+Kf9WobWPnfxWAEQ==}
+    dev: false
+
+  /primeicons/5.0.0:
+    resolution: {integrity: sha512-heygWF0X5HFI1otlZE62pp6ye7sZ8om78J9au2BRkg8O7Y8AHTZ9qKMRzchZUHLe8zUAvdi6hZzzm9XxgwIExw==}
+    dev: false
+
+  /primeng/14.0.0_lvkklmgpprg7p6bn7riz7stk34:
+    resolution: {integrity: sha512-FXDrm0YmgVTPkOfiFNWwanKyvnpgIjsdlMaZrSN1sK3dJTymwvLz/0ah0ctqFgvPnp5Q78bFEomCnvxW1AO15w==}
+    peerDependencies:
+      '@angular/common': ^14.0.0
+      '@angular/core': ^14.0.0
+      '@angular/forms': ^14.0.0
+      primeicons: ^5.0.0
+      rxjs: ^6.0.0 || ^7.0.0
+      zone.js: ^0.10.2 || ^0.11.0
+    dependencies:
+      '@angular/common': 14.1.0_36wbdubzobvek5dwkv7hqxvz7e
+      '@angular/core': 14.1.0_rxjs@7.5.6+zone.js@0.11.7
+      '@angular/forms': 14.1.0_oh7ssot2niyqdg7a6md2mriq4i
+      primeicons: 5.0.0
+      rxjs: 7.5.6
+      tslib: 2.4.0
+      zone.js: 0.11.7
+    dev: false
 
   /proc-log/2.0.1:
     resolution: {integrity: sha512-Kcmo2FhfDTXdcbfDH76N7uBYHINxc/8GW7UAVuVP9I+Va3uHSerrnKV6dLooga/gh7GlgzuCCr/eoldnL1muGw==}
