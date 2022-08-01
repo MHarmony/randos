@@ -14,7 +14,6 @@ specifiers:
   '@angular/core': ~14.1.0
   '@angular/forms': ~14.1.0
   '@angular/language-service': ~14.1.0
-  '@angular/material': ^14.1.0
   '@angular/platform-browser': ~14.1.0
   '@angular/platform-browser-dynamic': ~14.1.0
   '@angular/router': ~14.1.0
@@ -66,7 +65,6 @@ dependencies:
   '@angular/compiler': 14.1.0_@angular+core@14.1.0
   '@angular/core': 14.1.0_rxjs@7.5.6+zone.js@0.11.7
   '@angular/forms': 14.1.0_oh7ssot2niyqdg7a6md2mriq4i
-  '@angular/material': 14.1.0_nvgk33tfe6l6xymbmcj33quyle
   '@angular/platform-browser': 14.1.0_fsfxn3q5jfgkydsi5rfuqudspa
   '@angular/platform-browser-dynamic': 14.1.0_4uelz7lddsxzh2as2vx6t5hnym
   '@angular/router': 14.1.0_oh7ssot2niyqdg7a6md2mriq4i
@@ -486,27 +484,6 @@ packages:
     resolution: {integrity: sha512-ldL4xMDjXYZ93FCEIBVGipx9Qfgr7NuBNO+e25d+nWikXrUOnLfvF4UOL/TSUwSwqN4jxDI2KMNQIF6SecZfvQ==}
     engines: {node: ^14.15.0 || >=16.10.0}
     dev: true
-
-  /@angular/material/14.1.0_nvgk33tfe6l6xymbmcj33quyle:
-    resolution: {integrity: sha512-0UXfMqP5+Nzd6gbLplQpUX3E0rRRwhVEnAo8Z1hllGdJIY0meunMnTZCWsvYQ7SU/W+VbqnmtBmg5EOfYsjpiQ==}
-    peerDependencies:
-      '@angular/animations': ^14.0.0 || ^15.0.0
-      '@angular/cdk': 14.1.0
-      '@angular/common': ^14.0.0 || ^15.0.0
-      '@angular/core': ^14.0.0 || ^15.0.0
-      '@angular/forms': ^14.0.0 || ^15.0.0
-      '@angular/platform-browser': ^14.0.0 || ^15.0.0
-      rxjs: ^6.5.3 || ^7.4.0
-    dependencies:
-      '@angular/animations': 14.1.0_@angular+core@14.1.0
-      '@angular/cdk': 14.1.0_ybgtotgnqunb4jezjwo5rlkvva
-      '@angular/common': 14.1.0_36wbdubzobvek5dwkv7hqxvz7e
-      '@angular/core': 14.1.0_rxjs@7.5.6+zone.js@0.11.7
-      '@angular/forms': 14.1.0_oh7ssot2niyqdg7a6md2mriq4i
-      '@angular/platform-browser': 14.1.0_fsfxn3q5jfgkydsi5rfuqudspa
-      rxjs: 7.5.6
-      tslib: 2.4.0
-    dev: false
 
   /@angular/platform-browser-dynamic/14.1.0_4uelz7lddsxzh2as2vx6t5hnym:
     resolution: {integrity: sha512-0Lxz3HJ9qTOyMTp5Qud2tycP7wqe+tnHOSUqDywrbNRozTKGX0z3i+l0KMku3BtUbuMi3tJomqV914/dtbCvIw==}
